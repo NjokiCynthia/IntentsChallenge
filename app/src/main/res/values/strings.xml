@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IntentsChallenge</string>
+    <string name="contacts_app">Contacts App.</string>
+    <string name="button">Button</string>
+    <string name="create_new_contact">Create new contact.</string>
+    <string name="location">Please enter your location.</string>
+    <string name="website">Please enter your website.</string>
+    <string name="phone_number">Please enter your phone number.</string>
+    <string name="enter_name">Please enter your name.</string>
+</resources>
