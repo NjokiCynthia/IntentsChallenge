@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ic_moody"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#8BC34A"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
@@ -20,6 +20,17 @@
         android:layout_marginBottom="20dp"
         android:gravity="center_horizontal"
         android:text="@string/contacts_app" />
+
+
+    <ImageView
+        android:id="@+id/ic_moods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/ic_moody" />
 
     <ImageView
         android:id="@+id/ic_phone"

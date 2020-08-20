@@ -62,7 +62,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/emoticon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -70,7 +70,7 @@
             app:srcCompat="@drawable/ic_emoticon" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/face"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -78,7 +78,7 @@
             app:srcCompat="@drawable/ic_face" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/mood"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
